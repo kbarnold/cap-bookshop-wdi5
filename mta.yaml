@@ -41,5 +41,5 @@ resources:
       service-plan: application
       path: ./xs-security.json
       config:
-        xsappname: bookshop-myspace-kbarnold
+        xsappname: bookshop-${org}-${space}
         tenant-mode: dedicated
